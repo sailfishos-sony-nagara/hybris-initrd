@@ -126,6 +126,7 @@ BuildRequires:  openssh-server
 Buildrequires:  coreutils
 BuildRequires:  cryptsetup
 BuildRequires:  sed
+BuildRequires:  python3-base
 
 %if 0%{?_obs_build_project:1}
 %ifarch %{ix86}
